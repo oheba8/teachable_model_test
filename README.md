@@ -1,19 +1,41 @@
 # teachable_model_test
 
-Description
-This task involves creating an image recognition model using Google Teachable Machine. The model should be trained with at least two classes and then evaluated.
 
+🧠 Task Description
+This task involves creating an image recognition model using Google Teachable Machine. The model should be trained to recognize at least two different classes and then evaluated for accuracy.
 
-Steps
-Train an image recognition model in Teachable Machine using at least two classes.
+🎯 1. Model Training
+Use the Teachable Machine platform to create an image classification model.
 
-Export the model in TensorFlow → Keras format (for example: model.h5).
+Train the model using a minimum of two distinct classes (e.g., cats vs. dogs, or fruits vs. vegetables).
 
-Create a Python script to load the model and predict an image. For example:
+Collect and upload appropriate images for each class.
 
-Import TensorFlow, Keras, NumPy, and PIL for image handling.
-Load the model using keras.models.load_model("model.h5").
-Open the image using Image.open("test.jpg").resize((224, 224)).
-Convert the image to an array and normalize it with / 255.0.
-Use model.predict() to get predictions and np.argmax() to find the predicted class.
-Submit the Python script, exported model files, and a screenshot of the model running.
+Complete the training process through the platform.
+
+💾 2. Model Export
+After training, export the model in TensorFlow → Keras format.
+
+This format will allow you to use the model in a Python environment.
+
+You will receive files including the main model file (e.g., model.h5).
+
+🐍 3. Python Script for Prediction
+Create a Python script to test the exported model. The script should:
+
+Import necessary libraries (TensorFlow, Keras, NumPy, PIL).
+
+Load the model file.
+
+Open and preprocess a test image (resize to 224x224 pixels and normalize).
+
+Run a prediction and display the predicted class result.
+
+📎 4. Submission Requirements
+You are required to submit the following:
+
+The Python script used to test the model.
+
+The exported model files from Teachable Machine.
+
+A screenshot showing the script running and displaying the predicted result.
