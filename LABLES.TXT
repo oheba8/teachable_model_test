@@ -1,0 +1,4 @@
+0 ِApple
+1 Banana
+2 Strawberry
+3 Orange
